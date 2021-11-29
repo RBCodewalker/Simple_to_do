@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Todo_application</title>
+<!--     fonts -->
     <link
       href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
       rel="stylesheet"
@@ -14,29 +15,36 @@
       integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href=".css" />
   </head>
   <body>
     <header>
-      <h1>Ed's Todo List</h1>
+      <h1>To Do</h1>
     </header>
     <form>
-      <input type="text" class="todo-input" />
-      <button class="todo-button" type="submit">
-        <i class="fas fa-plus-square"></i>
+      <input type="text" class="inp" /> 
+<!--       todo-input  -->
+      <button class="clickbutt" type="submit">
+<!--         todo-button -->
+        <i class="sq"></i>
+<!--         fas fa-plus-square -->
       </button>
-      <div class="select">
-        <select name="todos" class="filter-todo">
-          <option value="all">All</option>
-          <option value="completed">Completed</option>
-          <option value="uncompleted">Uncompleted</option>
+      <div class="teil1">
+<!--         select -->
+        <select name="Jobs" class="flr">
+<!--           filter-todo -->
+          <option value="all">Added</option>
+          <option value="completed">Done</option>
+          <option value="uncompleted">Remain</option>
         </select>
       </div>
     </form>
-    <div class="todo-container">
-      <ul class="todo-list"></ul>
+    <div class="cont">
+<!--       todo-container -->
+      <ul class="dat"></ul>
+<!--       todo-list -->
     </div>
 
-    <script src="./app.js"></script>
+    <script src=".js"></script>
   </body>
 </html>
