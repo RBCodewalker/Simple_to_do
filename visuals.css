@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    
+  }
+  header {
+    
+  }
+  
+  header,
+  form {
+    
+  }
+  form input,
+  form button {
+    
+  }
+  form button {
+    
+  }
+  form button:hover {
+    
+  }
+  .todo-container {
+    
+  }
+  
+  .todo-list {
+    
+  }
+  
+  .todo {
+    
+  }
+  .filter-todo {
+    
+  }
+  .todo li {
+    
+  }
+  
+  .trash-btn,
+  .complete-btn {
+    
+  }
+  .complete-btn {
+    
+  }
+  .todo-item {
+    
+  }
+  
+  .fa-trash,
+  .fa-check {
+    
+  }
+  
+  .fall {
+    
+  }
+  
+  .completed {
+    
+  }
+  
+  /*CUSTOM SELECTOR */
+  select {
+    
+  }
+  
+  /* Custom Select */
+  .select {
+    
+  }
+  select {
+    
+  }
+  /* Arrow */
+  .select::after {
+    
+  }
+  /* Transition */
+  /*  */
+  .select:hover::after {
+    transform: scale(1.5);
+  }
+ 
