@@ -24,18 +24,18 @@
   form button:hover {
     
   }
-  .todo-container {
+  .cont {
     
   }
   
-  .todo-list {
+  .data {
     
   }
   
   .todo {
     
   }
-  .filter-todo {
+  .Jobs {
     
   }
   .todo li {
@@ -66,25 +66,23 @@
     
   }
   
-  /*CUSTOM SELECTOR */
-  select {
+  teil {
     
   }
   
-  /* Custom Select */
-  .select {
+  .teil {
     
   }
-  select {
+  teil {
     
   }
   /* Arrow */
-  .select::after {
+  .teil::after {
     
   }
   /* Transition */
   /*  */
-  .select:hover::after {
+  .teil:hover::after {
     
   }
  
