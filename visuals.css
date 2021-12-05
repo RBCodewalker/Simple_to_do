@@ -60,15 +60,20 @@
     transition: all 1s ease;
   }
   .Jobs {
-    
+    padding: 1rem;
   }
   .todo li {
-    
+    flex: 1;
   }
   
   .trash-btn,
   .complete-btn {
-    
+    background: #03a742;
+    color: rgb(187, 87, 87);
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
   }
   .complete-btn {
     
