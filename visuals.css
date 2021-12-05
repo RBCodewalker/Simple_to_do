@@ -109,18 +109,29 @@
   }
   
   .teil {
-    
+    margin: 1rem;
+    position: relative;
+    overflow: hidden;
   }
   teil {
-    
+    color: hsl(172, 100%, 25%);
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    width: 12rem;
   }
-  /* Arrow */
+/*   Arrow */
   .teil::after {
-    
+    content: "\25BC";
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+    background: #140400;
+    cursor: pointer;
+    pointer-events: none;
   }
-  /* Transition */
-  /*  */
+/*   Transition */
   .teil:hover::after {
-    
+    transform: scale(1.5);
   }
  
