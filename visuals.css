@@ -29,21 +29,35 @@
     background: rgb(67, 21, 151);
   }
   form button {
-    
+    color: #c24238;
+    background: #0d5f56;
+    cursor: pointer;
+    transition: all 0.3s ease;
   }
   form button:hover {
-    
+    background: #032fbe;
+    color: rgb(158, 209, 17);
   }
   .cont {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .data {
-    
+    min-width: 30%;
+    list-style: none;
   }
   
   .todo {
-    
+    margin: 0.5rem;
+    background: rgb(216, 84, 84);
+    font-size: 1.5rem;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 1s ease;
   }
   .Jobs {
     
