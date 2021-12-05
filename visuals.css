@@ -76,27 +76,36 @@
     font-size: 1rem;
   }
   .complete-btn {
-    
+    background: rgb(0, 124, 93);
   }
   .todo-item {
-    
+    padding: 0rem 0.5rem;
   }
   
   .fa-trash,
   .fa-check {
-    
+    pointer-events: none;
   }
   
   .fall {
-    
+    transform: translateY(10rem) rotateZ(20deg);
+    opacity: 0;
   }
   
   .completed {
-    
+    text-decoration: line-through;
+    opacity: 0.5;
   }
   
   teil {
-    
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background-image: none;
   }
   
   .teil {
