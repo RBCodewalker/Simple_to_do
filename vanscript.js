@@ -10,4 +10,11 @@ filterOption.addEventListener("click", filterTodo);
 
 function addTodo(e)
 {
+  
 }
+
+function removeTodo(e)
+{
+  
+}
+
