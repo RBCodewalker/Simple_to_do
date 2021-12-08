@@ -1,20 +1,34 @@
-const todoInput = document.querySelector(".todo-input");
-const todoButton = document.querySelector(".todo-button");
-const todoList = document.querySelector(".todo-list");
-const filterOption = document.querySelector(".filter-todo");
+const todoInput = document.querySelector(".inp");
+const todoButton = document.querySelector(".clickbutt");
+const todoList = document.querySelector(".data");
+const filterOption = document.querySelector(".flr");
 
 document.addEventListener("DOMContentLoaded", getTodos);
-todoButton.addEventListener("click", addTodo);
-todoList.addEventListener("click", deleteTodo);
-filterOption.addEventListener("click", filterTodo);
+todoButton.addEventListener("click", add);
+todoList.addEventListener("click", remove);
+filterOption.addEventListener("click", filter);
 
-function addTodo(e)
+function add(e)
 {
   
 }
 
-function removeTodo(e)
+function remove(e)
 {
   
 }
 
+function filter(e)
+{
+  
+}
+
+function savelocal(e)
+{
+  
+}
+
+function getTodos(e)
+{
+  
+}
