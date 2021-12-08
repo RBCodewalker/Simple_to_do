@@ -8,4 +8,6 @@ todoButton.addEventListener("click", addTodo);
 todoList.addEventListener("click", deleteTodo);
 filterOption.addEventListener("click", filterTodo);
 
-function addTodo(e) {
+function addTodo(e)
+{
+}
