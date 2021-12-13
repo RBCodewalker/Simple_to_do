@@ -43,17 +43,19 @@ function remove(e)
 {
   const item = e.target;
   
-    if (item.classList[0] === "dump") {
-      // e.target.parentElement.remove();
+    if (item.classList[0] === "dump")
+    { // e.target.parentElement.remove();
       const todo = item.parentElement;
       todo.classList.add("fall");
       //at the end
       removeLocalTodos(todo);
-      todo.addEventListener("transitionend", e => {
+      todo.addEventListener("transitionend", e =>
+      {
         todo.remove();
       });
     }
-    if (item.classList[0] === "done") {
+    if (item.classList[0] === "done")
+    {
       const todo = item.parentElement;
       todo.classList.toggle("comp");
       console.log(todo);
@@ -62,7 +64,11 @@ function remove(e)
 
 function filter(e)
 {
-  
+  const todos = todoList.childNodes;
+    todos.forEach(function(todo)
+    {
+      
+    }
 }
 
 function savelocal(e)
