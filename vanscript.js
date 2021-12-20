@@ -48,7 +48,7 @@ function remove(e)
       const todo = item.parentElement;
       todo.classList.add("fall");
       //at the end
-      removeLocalTodos(todo);
+      removelocal(todo);
       todo.addEventListener("transitionend", e =>
       {
         todo.remove();
@@ -88,7 +88,12 @@ function filter(e)
     });
 }
 
-function savelocal(e)
+function savelocal(todo)
+{
+  
+}
+
+function removelocal(todo)
 {
   
 }
