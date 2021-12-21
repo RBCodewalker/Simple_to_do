@@ -1,2 +1,2 @@
 # Simple_to_do
-Vanilla js practice project(INCOMPLETE)
+Vanilla js practice project
