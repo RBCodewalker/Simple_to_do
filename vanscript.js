@@ -90,7 +90,14 @@ function filter(e)
 
 function savelocal(todo)
 {
-  
+  let todos;
+    if (localStorage.getItem("jobs") === null) {
+      todos = [];
+    } else {
+      todos = JSON.parse(localStorage.getItem("jobs"));
+    }
+    todos.push(todo);
+    localStorage.setItem("jobs", JSON.stringify(todos));
 }
 
 function removelocal(todo)
