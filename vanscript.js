@@ -115,5 +115,33 @@ function removelocal(todo)
 
 function getTodos(e)
 {
-  
+  let todos;
+    if (localStorage.getItem("jobs") === null) {
+      todos = [];
+    } else {
+      todos = JSON.parse(localStorage.getItem("jobs"));
+    }
+    todos.forEach(function(todo) {
+      //Create todo div
+      const todoDiv = document.createElement("div");
+      todoDiv.classList.add("todo");
+      //Create list
+      const newTodo = document.createElement("li");
+      newTodo.innerText = todo;
+      newTodo.classList.add("doit");
+      todoDiv.appendChild(newTodo);
+      todoInput.value = "";
+      //Create Completed Button
+      const completedButton = document.createElement("button");
+      completedButton.innerHTML = `<i class="fas fa-check"></i>`;
+      completedButton.classList.add("done");
+      todoDiv.appendChild(completedButton);
+      //Create trash button
+      const trashButton = document.createElement("button");
+      trashButton.innerHTML = `<i class="fas fa-dump"></i>`;
+      trashButton.classList.add("dump");
+      todoDiv.appendChild(trashButton);
+      //attach final Todo
+      todoList.appendChild(todoDiv);
+    });
 }
