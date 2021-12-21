@@ -102,7 +102,15 @@ function savelocal(todo)
 
 function removelocal(todo)
 {
-  
+  let todos;
+    if (localStorage.getItem("jobs") === null) {
+      todos = [];
+    } else {
+      todos = JSON.parse(localStorage.getItem("jobs"));
+    }
+    const todoIndex = todo.children[0].innerText;
+    todos.splice(todos.indexOf(todoIndex), 1);
+    localStorage.setItem("jobs", JSON.stringify(todos));
 }
 
 function getTodos(e)
