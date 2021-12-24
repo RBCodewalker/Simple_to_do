@@ -59,7 +59,7 @@ function remove(e)
       const todo = item.parentElement;
       todo.classList.toggle("comp");
       console.log(todo);
-    }
+    } 
 }
 
 function filter(e)
@@ -85,7 +85,7 @@ function filter(e)
             todo.style.display = "none";
           }
       }
-    });
+    }); 
 }
 
 function savelocal(todo)
@@ -143,5 +143,5 @@ function getTodos(e)
       todoDiv.appendChild(trashButton);
       //attach final Todo
       todoList.appendChild(todoDiv);
-    });
+    }); 
 }
