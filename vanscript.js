@@ -8,8 +8,7 @@ todoButton.addEventListener("click", add);
 todoList.addEventListener("click", remove);
 filterOption.addEventListener("click", filter);
 
-function add(e)
-{
+function add(e){
   //Prevent natural behaviour
     e.preventDefault();
     //Create todo div
@@ -39,8 +38,7 @@ function add(e)
     todoList.appendChild(todoDiv);
 }
 
-function remove(e)
-{
+function remove(e){
   const item = e.target;
   
     if (item.classList[0] === "dump")
@@ -62,8 +60,7 @@ function remove(e)
     } 
 }
 
-function filter(e)
-{
+function filter(e){
   const todos = todoList.childNodes;
     todos.forEach(function(todo)
     {
@@ -88,8 +85,7 @@ function filter(e)
     }); 
 }
 
-function savelocal(todo)
-{
+function savelocal(todo){
   let todos;
     if (localStorage.getItem("jobs") === null) {
       todos = [];
@@ -100,8 +96,7 @@ function savelocal(todo)
     localStorage.setItem("jobs", JSON.stringify(todos));
 }
 
-function removelocal(todo)
-{
+function removelocal(todo){
   let todos;
     if (localStorage.getItem("jobs") === null) {
       todos = [];
@@ -113,8 +108,7 @@ function removelocal(todo)
     localStorage.setItem("jobs", JSON.stringify(todos));
 }
 
-function getTodos(e)
-{
+function getTodos(e){
   let todos;
     if (localStorage.getItem("jobs") === null) {
       todos = [];
