@@ -77,12 +77,12 @@
   .done{
     background: rgb(0, 124, 93);
   }
-  .doit {
+  .doit{
     padding: 0rem 0.5rem;
   }
   
   .fa-dump,
-  .fa-check {
+  .fa-check{
     pointer-events: none;
   }
   
