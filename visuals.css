@@ -114,14 +114,14 @@
     position: relative;
     overflow: hidden;
   }
-  select {
+  select{
     color: hsl(172, 100%, 25%);
     font-family: "Poppins", sans-serif;
     cursor: pointer;
     width: 12rem;
   }
   /* Arrow */
-  .teil::after {
+  .teil::after{
     content: "\25BC";
     position: absolute;
     top: 0;
