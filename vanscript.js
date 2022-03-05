@@ -8,7 +8,7 @@ todoButton.addEventListener("click", add);
 todoList.addEventListener("click", remove);
 filterOption.addEventListener("click", filter);
 
-function add(e){
+function add(e){ 
   //Prevent natural behaviour
     e.preventDefault();
     //Create todo div
